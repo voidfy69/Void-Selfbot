@@ -1,12 +1,1 @@
-# VOID PVT SB
-- SELF BOT IN PY . MADE BY VOID !
-- Run void.py
-
-- Discord: void.fy. 
-- Server: discord.gg/cosmic-codez
-- Instagram: void.fy
-
-# DONT SKID
-
-- FUCK YOU ALL SKIDDERS !
-- IDFC IF U SKID THIS SB 
+[![Discord Presence](https://lanyard.cnrad.dev/api/622765592629215233)](https://discord.com/users/622765592629215233)
